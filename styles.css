@@ -166,3 +166,9 @@ p[data-width="wide"] {
 .button:focus-visible {
   background-color: var(--clr-accent-300);
 }
+
+.button[data-type="inverted"]:hover,
+.button[data-type="inverted"]:focus-visible {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-accent-300);
+}
