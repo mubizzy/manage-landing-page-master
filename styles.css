@@ -184,3 +184,22 @@ p[data-width="wide"] {
   justify-content: space-between;
   align-items: center;
 }
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+.nav-list {
+  font-size: var(--fs-nav);
+}
+
+.nav-list {
+  display: flex;
+  gap: clamp(var(--size-400), 5vw, var(--size-700));
+  font-weight: var(--fw-semi-bold);
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--clr-primary-400);
+}
