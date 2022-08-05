@@ -252,4 +252,8 @@ p[data-width="wide"] {
     border: 0;
     padding: 0.5em;
   }
+
+  .mobile-nav-toggle .icon-close {
+    display: none;
+  }
 }
