@@ -301,3 +301,15 @@ input:where([type="text"], [type="email"], ) {
   border: 0;
   padding: var(--size-300) var(--size-400);
 }
+
+@media (min-width: 50em) {
+  .primary-footer-wrapper {
+    grid-template-areas: "logo-social nav form";
+  }
+
+  .primary-footer-logo-social {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--size-700);
+  }
+}
