@@ -19,3 +19,5 @@ const slider = new A11YSlider(document.querySelector(".slider"), {
     480: {
       dots: false, // dots enabled 1280px and up
     },
+  },
+});
